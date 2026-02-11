@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing mi_bot.egg-info/PKG-INFO
+writing dependency_links to mi_bot.egg-info/dependency_links.txt
+writing entry points to mi_bot.egg-info/entry_points.txt
+writing requirements to mi_bot.egg-info/requires.txt
+writing top-level names to mi_bot.egg-info/top_level.txt
+reading manifest file 'mi_bot.egg-info/SOURCES.txt'
+writing manifest file 'mi_bot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/edu/robot_educativo_ws/install/mi_bot/lib/python3.10/site-packages/mi-bot.egg-link (link to .)
+
+Installed /home/edu/robot_educativo_ws/build/mi_bot
+running symlink_data

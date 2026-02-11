@@ -5,7 +5,7 @@ Summary: TODO: Package description
 Home-page: UNKNOWN
 Maintainer: edu
 Maintainer-email: eduisant@espol.edu.ec
-License: TODO: License declaration
+License: Apache 2.0
 Platform: UNKNOWN
 Provides-Extra: test
 
