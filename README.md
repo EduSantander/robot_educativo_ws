@@ -33,7 +33,7 @@ source /opt/ros/humble/setup.bash
 
 Clona el proyecto desde tu repositorio de GitHub:
 ```bash
-git clone https://github.com/TU_USUARIO/robot_educativo_ws.git
+git clone https://github.com/EduSantander/robot_educativo_ws.git
 ```
 
 Ingresa al workspace:
