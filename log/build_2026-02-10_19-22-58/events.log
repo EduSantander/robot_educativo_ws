@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.002276] (mi_bot) JobQueued: {'identifier': 'mi_bot', 'dependencies': OrderedDict()}
+[0.002401] (mi_bot) JobStarted: {'identifier': 'mi_bot'}
+[0.098801] (-) TimerEvent: {}
+[0.199354] (-) TimerEvent: {}
+[0.299878] (-) TimerEvent: {}
+[0.400392] (-) TimerEvent: {}
+[0.500883] (-) TimerEvent: {}
+[0.601358] (-) TimerEvent: {}
+[0.701824] (-) TimerEvent: {}
+[0.802266] (-) TimerEvent: {}
+[0.902708] (-) TimerEvent: {}
+[1.003174] (-) TimerEvent: {}
+[1.104021] (-) TimerEvent: {}
+[1.204664] (-) TimerEvent: {}
+[1.305204] (-) TimerEvent: {}
+[1.405678] (-) TimerEvent: {}
+[1.506210] (-) TimerEvent: {}
+[1.606830] (-) TimerEvent: {}
+[1.632217] (mi_bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/edu/robot_educativo_ws/build/mi_bot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/edu/robot_educativo_ws/build/mi_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'edu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/edu', 'OLDPWD': '/home/edu/robot_educativo_ws/src/mi_bot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1786', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'edu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'edu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/edu:@/tmp/.ICE-unix/1746,unix/edu:/tmp/.ICE-unix/1746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/043da370_b69d_492d_9e85_ab556b1472a0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.STYKK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/edu/robot_educativo_ws/build/mi_bot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/edu/robot_educativo_ws/build/mi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu/robot_educativo_ws/install/mi_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.706989] (-) TimerEvent: {}
+[1.807537] (-) TimerEvent: {}
+[1.908145] (-) TimerEvent: {}
+[2.008646] (-) TimerEvent: {}
+[2.109223] (-) TimerEvent: {}
+[2.209660] (-) TimerEvent: {}
+[2.310133] (-) TimerEvent: {}
+[2.343251] (mi_bot) StdoutLine: {'line': b'running develop\n'}
+[2.410313] (-) TimerEvent: {}
+[2.510817] (-) TimerEvent: {}
+[2.611275] (-) TimerEvent: {}
+[2.711720] (-) TimerEvent: {}
+[2.761866] (mi_bot) StdoutLine: {'line': b'running egg_info\n'}
+[2.762238] (mi_bot) StdoutLine: {'line': b'creating mi_bot.egg-info\n'}
+[2.762589] (mi_bot) StdoutLine: {'line': b'writing mi_bot.egg-info/PKG-INFO\n'}
+[2.762987] (mi_bot) StdoutLine: {'line': b'writing dependency_links to mi_bot.egg-info/dependency_links.txt\n'}
+[2.763358] (mi_bot) StdoutLine: {'line': b'writing entry points to mi_bot.egg-info/entry_points.txt\n'}
+[2.763786] (mi_bot) StdoutLine: {'line': b'writing requirements to mi_bot.egg-info/requires.txt\n'}
+[2.764132] (mi_bot) StdoutLine: {'line': b'writing top-level names to mi_bot.egg-info/top_level.txt\n'}
+[2.764402] (mi_bot) StdoutLine: {'line': b"writing manifest file 'mi_bot.egg-info/SOURCES.txt'\n"}
+[2.767752] (mi_bot) StdoutLine: {'line': b"reading manifest file 'mi_bot.egg-info/SOURCES.txt'\n"}
+[2.769286] (mi_bot) StdoutLine: {'line': b"writing manifest file 'mi_bot.egg-info/SOURCES.txt'\n"}
+[2.771941] (mi_bot) StdoutLine: {'line': b'running build_ext\n'}
+[2.772406] (mi_bot) StdoutLine: {'line': b'Creating /home/edu/robot_educativo_ws/install/mi_bot/lib/python3.10/site-packages/mi-bot.egg-link (link to .)\n'}
+[2.774640] (mi_bot) StdoutLine: {'line': b'\n'}
+[2.775026] (mi_bot) StdoutLine: {'line': b'Installed /home/edu/robot_educativo_ws/build/mi_bot\n'}
+[2.775451] (mi_bot) StdoutLine: {'line': b'running symlink_data\n'}
+[2.775664] (mi_bot) StdoutLine: {'line': b'creating /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index\n'}
+[2.776021] (mi_bot) StdoutLine: {'line': b'creating /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index/resource_index\n'}
+[2.776343] (mi_bot) StdoutLine: {'line': b'creating /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index/resource_index/packages\n'}
+[2.776615] (mi_bot) StdoutLine: {'line': b'symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/resource/mi_bot -> /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index/resource_index/packages\n'}
+[2.776932] (mi_bot) StdoutLine: {'line': b'symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/package.xml -> /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot\n'}
+[2.777208] (mi_bot) StdoutLine: {'line': b'creating /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/launch\n'}
+[2.777368] (mi_bot) StdoutLine: {'line': b'symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/launch/sim.launch.py -> /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/launch\n'}
+[2.777515] (mi_bot) StdoutLine: {'line': b'creating /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/urdf\n'}
+[2.777659] (mi_bot) StdoutLine: {'line': b'symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/urdf/robot.urdf -> /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/urdf\n'}
+[2.811903] (-) TimerEvent: {}
+[2.836974] (mi_bot) CommandEnded: {'returncode': 0}
+[2.864878] (mi_bot) JobEnded: {'identifier': 'mi_bot', 'rc': 0}
+[2.866667] (-) EventReactorShutdown: {}

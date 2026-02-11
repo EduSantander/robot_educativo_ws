@@ -1,0 +1,27 @@
+[1.638s] Invoking command in '/home/edu/robot_educativo_ws/build/mi_bot': PYTHONPATH=/home/edu/robot_educativo_ws/build/mi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu/robot_educativo_ws/install/mi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edu/robot_educativo_ws/build/mi_bot/build --no-deps symlink_data
+[2.341s] running develop
+[2.760s] running egg_info
+[2.760s] creating mi_bot.egg-info
+[2.760s] writing mi_bot.egg-info/PKG-INFO
+[2.761s] writing dependency_links to mi_bot.egg-info/dependency_links.txt
+[2.761s] writing entry points to mi_bot.egg-info/entry_points.txt
+[2.762s] writing requirements to mi_bot.egg-info/requires.txt
+[2.762s] writing top-level names to mi_bot.egg-info/top_level.txt
+[2.762s] writing manifest file 'mi_bot.egg-info/SOURCES.txt'
+[2.766s] reading manifest file 'mi_bot.egg-info/SOURCES.txt'
+[2.767s] writing manifest file 'mi_bot.egg-info/SOURCES.txt'
+[2.770s] running build_ext
+[2.770s] Creating /home/edu/robot_educativo_ws/install/mi_bot/lib/python3.10/site-packages/mi-bot.egg-link (link to .)
+[2.772s] 
+[2.773s] Installed /home/edu/robot_educativo_ws/build/mi_bot
+[2.773s] running symlink_data
+[2.773s] creating /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index
+[2.774s] creating /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index/resource_index
+[2.774s] creating /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index/resource_index/packages
+[2.774s] symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/resource/mi_bot -> /home/edu/robot_educativo_ws/install/mi_bot/share/ament_index/resource_index/packages
+[2.775s] symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/package.xml -> /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot
+[2.775s] creating /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/launch
+[2.775s] symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/launch/sim.launch.py -> /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/launch
+[2.775s] creating /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/urdf
+[2.775s] symbolically linking /home/edu/robot_educativo_ws/build/mi_bot/urdf/robot.urdf -> /home/edu/robot_educativo_ws/install/mi_bot/share/mi_bot/urdf
+[2.835s] Invoked command in '/home/edu/robot_educativo_ws/build/mi_bot' returned '0': PYTHONPATH=/home/edu/robot_educativo_ws/build/mi_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu/robot_educativo_ws/install/mi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edu/robot_educativo_ws/build/mi_bot/build --no-deps symlink_data

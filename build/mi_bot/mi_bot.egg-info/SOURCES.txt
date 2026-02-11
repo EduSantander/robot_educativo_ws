@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/sim.launch.py
+mi_bot/__init__.py
+mi_bot.egg-info/PKG-INFO
+mi_bot.egg-info/SOURCES.txt
+mi_bot.egg-info/dependency_links.txt
+mi_bot.egg-info/entry_points.txt
+mi_bot.egg-info/requires.txt
+mi_bot.egg-info/top_level.txt
+mi_bot.egg-info/zip-safe
+resource/mi_bot
+urdf/robot.urdf
