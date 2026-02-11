@@ -9,7 +9,7 @@ Este repositorio contiene un **robot educativo desarrollado en ROS 2**, que incl
 - Lanzamiento de simulación
 - Control del robot mediante **teleoperación (teleop)**
 
-El objetivo del proyecto es servir como base para el aprendizaje de modelado, simulación y control básico de robots móviles en ROS 2. Para una explicación detallada sobre cómo se creó e implementó este proyecto desde cero, consulte el archivo [`docs/TUTORIAL.md`](docs/TUTORIAL.md).
+El objetivo del proyecto es servir como base para el aprendizaje de modelado, simulación y control básico de robots móviles en ROS 2. Para una explicación detallada sobre cómo se creó e implementó este proyecto desde cero, consulte el archivo [`TUTORIAL.md`](src/mi_bot/docs/TUTORIAL.md).
 
 
 ---
